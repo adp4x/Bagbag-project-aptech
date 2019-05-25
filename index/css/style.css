@@ -1,0 +1,70 @@
+.carousel-inner img {
+    width: 100%;
+}
+
+.carousel-caption{
+    top: 30%;
+    position:absolute;
+}
+
+.carousel-caption h1{
+    font-size: 400%;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 15px #000;
+}
+
+.carousel-caption h3{
+    font-size: 200%;
+    text-shadow: 2px 2px 10px #000;
+}
+
+.welcome hr {
+    border-top: 2px solid rgba(62, 44, 100, 0.6);
+    width: 95%;
+    margin-bottom: 2rem;
+}
+
+.fa-truck, .fa-refresh, .fa-headset, .fa-coins{
+    font-size: 4em;
+    margin: 1rem;
+}
+
+.fa-facebook, .fa-twitter, .fa-instagram{
+    font-size: 32px;
+    margin: 1rem;
+}
+.instagram {
+    color: red;
+}
+
+.fa-check{
+    color: green;
+    font-size: 50px;
+}
+
+.a{
+    background-color: cyan
+}
+
+/*.img-responsive{
+    align-items: center !important;
+}*/
+
+@media (max-width:992px){
+    .carousel-inner img {
+        width: 100%;
+    }
+    
+    .carousel-caption{
+        top: 30%;
+        position:absolute;
+    }
+    
+    .carousel-caption h1{
+        font-size: 250%;
+    }
+    
+    .carousel-caption h3{
+        font-size: 160%;
+    }
+}
